@@ -1,0 +1,20 @@
+## application.yml
+
+tcp:
+  host: 172.16.20.105
+  port: 21146
+  pool:
+
+  timeout: 10000 # 10 seconds
+  connection:
+    # 10 seconds
+  keepalive: true
+  reconnect:
+    interval: 5000 # 5 seconds
+    attempts: 3
+
+spring:
+  task:
+    execution:
+      pool:
+        keep-alive: 60s

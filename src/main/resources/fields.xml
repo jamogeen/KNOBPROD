@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO8583Fields>
+    <field num="1" code="BitMap" description="Secondary Bitmap" />
+    <field num="2" code="PAN" description="Primary Account Number" />
+    <field num="3" code="ProcCode" description="Processing Code" />
+    <field num="4" code="TranAmount" description="Transaction Amount" />
+    <field num="5" code="SettleAmount" description="Settlement Amount" />
+    <field num="6" code="BillingAmount" description="Billing Amount" />
+    <field num="7" code="TranDateTime" description="Transmission Date and Time" />
+    <field num="8" code="BillingFee" description="Billing Fee Amount" />
+    <field num="9" code="ConvRateSettle" description="Conversion Rate Settlement" />
+    <field num="10" code="ConvRateBilling" description="Conversion Rate Billing" />
+    <field num="11" code="STAN" description="Systems Trace Audit Number" />
+    <field num="12" code="LocalTime" description="Local Transaction Time" />
+    <field num="13" code="LocalDate" description="Local Transaction Date" />
+    <field num="14" code="ExpiryDate" description="Card Expiration Date" />
+    <field num="15" code="SettleDate" description="Settlement Date" />
+    <field num="16" code="CurrencyConvDate" description="Currency Conversion Date" />
+    <field num="17" code="CaptureDate" description="Capture Date" />
+    <field num="18" code="MerchantType" description="Merchant Type" />
+    <field num="19" code="AcqInstCtryCode" description="Acquiring Institution Country Code" />
+    <field num="20" code="PANExtCtryCode" description="PAN Extended Country Code" />
+    <field num="21" code="FwdInstCtryCode" description="Forwarding Institution Country Code" />
+    <field num="22" code="POSEntryMode" description="Point of Service Entry Mode" />
+    <field num="23" code="PANSeqNum" description="Card Sequence Number" />
+    <field num="24" code="NII" description="Network International Identifier" />
+    <field num="25" code="POSCondCode" description="Point of Service Condition Code" />
+    <field num="26" code="POSPinCap" description="Point of Service PIN Capture Code" />
+    <field num="27" code="AuthIdRespLen" description="Authorization Identification Response Length" />
+    <field num="28" code="TranFeeAmt" description="Transaction Fee Amount" />
+    <field num="29" code="SettleFeeAmt" description="Settlement Fee Amount" />
+    <field num="30" code="TranProcFeeAmt" description="Transaction Processing Fee Amount" />
+    <field num="31" code="SettleProcFeeAmt" description="Settlement Processing Fee Amount" />
+    <field num="32" code="AcqInstIdCode" description="Acquiring Institution Identification Code" />
+    <field num="33" code="FwdInstIdCode" description="Forwarding Institution Identification Code" />
+    <field num="34" code="PANExt" description="Primary Account Number Extended" />
+    <field num="35" code="Track2Data" description="Track 2 Data" />
+    <field num="36" code="Track3Data" description="Track 3 Data" />
+    <field num="37" code="RetRefNo" description="Retrieval Reference Number" />
+    <field num="38" code="AuthIdResp" description="Authorization Identification Response" />
+    <field num="39" code="RespCode" description="Response Code" />
+    <field num="40" code="ServiceRestCode" description="Service Restriction Code" />
+    <field num="41" code="TerminalId" description="Card Acceptor Terminal Identification" />
+    <field num="42" code="MerchantId" description="Card Acceptor Identification Code" />
+    <field num="43" code="CardAcceptorName" description="Card Acceptor Name/Location" />
+    <field num="44" code="AddtlRespData" description="Additional Response Data" />
+    <field num="45" code="Track1Data" description="Track 1 Data" />
+    <field num="46" code="AddtlDataISO" description="Additional Data - ISO" />
+    <field num="47" code="AddtlDataNat" description="Additional Data - National" />
+    <field num="48" code="AddtlDataPrivate" description="Additional Data - Private" />
+    <field num="49" code="CurrencyCode" description="Currency Code Transaction" />
+    <field num="50" code="CurrencyCodeSettle" description="Currency Code Settlement" />
+    <field num="51" code="CurrencyCodeCard" description="Currency Code Cardholder Billing" />
+    <field num="52" code="PINData" description="Personal Identification Number Data" />
+    <field num="53" code="SecControlInfo" description="Security Related Control Information" />
+    <field num="54" code="AddtlAmounts" description="Additional Amounts" />
+    <field num="55" code="ICCData" description="Integrated Circuit Card System Related Data" />
+    <field num="56" code="OrigData" description="Original Data Elements" />
+    <field num="57" code="AuthLifeCycle" description="Authorization Life Cycle Code" />
+    <field num="58" code="AuthAgentInstId" description="Authorizing Agent Institution ID" />
+    <field num="59" code="TransportData" description="Transport Data" />
+    <field num="60" code="ReservedNat" description="Reserved for National Use" />
+    <field num="61" code="ReservedPrivate" description="Reserved for Private Use" />
+    <field num="62" code="ReservedPrivate" description="Reserved for Private Use" />
+    <field num="63" code="ReservedPrivate" description="Reserved for Private Use" />
+    <field num="64" code="MAC" description="Message Authentication Code" />
+    <field num="65" code="SettlementCode" description="Settlement Code" />
+    <field num="66" code="ExtendedPayCode" description="Extended Payment Code" />
+    <field num="67" code="ReceivingInstCtryCode" description="Receiving Institution Country Code" />
+    <field num="68" code="SettleInstCtryCode" description="Settlement Institution Country Code" />
+    <field num="69" code="NetworkMgtInfo" description="Network Management Information Code" />
+    <field num="70" code="NetworkCode" description="Network Code" />
+    <field num="71" code="MessageNumber" description="Message Number" />
+    <field num="72" code="DataRecord" description="Data Record" />
+    <field num="73" code="DateAction" description="Date Action" />
+    <field num="74" code="CreditsNumber" description="Credits Number" />
+    <field num="75" code="CreditsRevNumber" description="Credits Reversal Number" />
+    <field num="76" code="DebitsNumber" description="Debits Number" />
+    <field num="77" code="DebitsRevNumber" description="Debits Reversal Number" />
+    <field num="78" code="TransferNumber" description="Transfer Number" />
+    <field num="79" code="TransferRevNumber" description="Transfer Reversal Number" />
+    <field num="80" code="InquiriesNumber" description="Inquiries Number" />
+    <field num="81" code="AuthorizationsNumber" description="Authorizations Number" />
+    <field num="82" code="CreditsProcFee" description="Credits Processing Fee Amount" />
+    <field num="83" code="CreditsTranFee" description="Credits Transaction Fee Amount" />
+    <field num="84" code="DebitsProcFee" description="Debits Processing Fee Amount" />
+    <field num="85" code="DebitsTranFee" description="Debits Transaction Fee Amount" />
+    <field num="86" code="CreditsAmount" description="Credits Amount" />
+    <field num="87" code="CreditsRevAmount" description="Credits Reversal Amount" />
+    <field num="88" code="DebitsAmount" description="Debits Amount" />
+    <field num="89" code="DebitsRevAmount" description="Debits Reversal Amount" />
+    <field num="90" code="OrigDataElements" description="Original Data Elements" />
+    <field num="91" code="FileUpdateCode" description="File Update Code" />
+    <field num="92" code="FileSecurityCode" description="File Security Code" />
+    <field num="93" code="ResponseIndicator" description="Response Indicator" />
+    <field num="94" code="ServiceIndicator" description="Service Indicator" />
+    <field num="95" code="ReplacementAmounts" description="Replacement Amounts" />
+    <field num="96" code="MessageSecurityCode" description="Message Security Code" />
+    <field num="97" code="NetSettleAmount" description="Net Settlement Amount" />
+    <field num="98" code="Payee" description="Payee" />
+    <field num="99" code="SettleInstIdCode" description="Settlement Institution Identification Code" />
+    <field num="100" code="ReceivingInstIdCode" description="Receiving Institution Identification Code" />
+    <field num="101" code="FileName" description="File Name" />
+    <field num="102" code="AccountId1" description="Account Identification 1" />
+    <field num="103" code="AccountId2" description="Account Identification 2" />
+    <field num="104" code="TranDesc" description="Transaction Description" />
+    <field num="105" code="ReservedIS1" description="Reserved for ISO Use" />
+    <field num="106" code="ReservedISO2" description="Reserved for ISO Use" />
+    <field num="107" code="ReservedISO3" description="Reserved for ISO Use" />
+    <field num="108" code="ReservedISO4" description="Reserved for ISO Use" />
+    <field num="109" code="ReservedISO5" description="Reserved for ISO Use" />
+    <field num="110" code="ReservedISO6" description="Reserved for ISO Use" />
+    <field num="111" code="ReservedISO7" description="Reserved for ISO Use" />
+    <field num="112" code="ReservedNat8" description="Reserved for National Use" />
+    <field num="113" code="ReservedNat9" description="Reserved for National Use" />
+    <field num="114" code="ReservedNat10" description="Reserved for National Use" />
+    <field num="115" code="ReservedNat11" description="Reserved for National Use" />
+    <field num="116" code="ReservedNat12" description="Reserved for National Use" />
+    <field num="117" code="ReservedNat13" description="Reserved for National Use" />
+    <field num="118" code="ReservedNat14" description="Reserved for National Use" />
+    <field num="119" code="ReservedNat15" description="Reserved for National Use" />
+    <field num="120" code="ReservedPrivate1" description="Reserved for Private Use" />
+    <field num="121" code="ReservedPrivate2" description="Reserved for Private Use" />
+    <field num="122" code="ReservedPrivate3" description="Reserved for Private Use" />
+    <field num="123" code="ReservedPrivate4" description="Reserved for Private Use" />
+    <field num="124" code="ReservedPrivate5" description="Reserved for Private Use" />
+    <field num="125" code="ReservedPrivate6" description="Reserved for Private Use" />
+    <field num="126" code="ReservedPrivate7" description="Reserved for Private Use" />
+    <field num="127" code="ReservedPrivate8" description="Reserved for Private Use" />
+    <field num="128" code="MAC2" description="Message Authentication Code 2" />
+</ISO8583Fields>
